@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1603053859907-a09a136e2eaa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+.clock,.calender{
+    display: flex;
+}
+
+.clock div{
+    margin: 6px;
+    position: relative;
+}
+
+.clock span{
+    width:100px;
+    height:80px;
+    background-color:darkmagenta;
+    opacity: 0.7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+}
+
+.clock .text{
+    height: 30px;
+    font-size:15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:orchid;
+    opacity: 0.8;
+} 
+
+.clock #am-pm{
+    position: absolute;
+    bottom: 0;
+    width:60px;
+    height: 30px;
+    font-size: 20px;
+    background-color:lime;
+    color: black;
+}
+#day,#month,#year{
+    font-size: 40px;
+}
+
+.calender span{
+    width:100px;
+    height:80px;
+    background-color:cadetblue;
+    opacity: .9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+}
+.calender div{
+    margin: 6px;
+    position: relative;
+}
+
+.calender .text{
+    height: 30px;
+    font-size:15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:blue;
+    opacity: 0.8;
+} 
+
+.clockh{
+    background-color:rgba(0,0,0,0.2);
+    opacity: 0.9;
+    width: 410px;
+}
+.calenderh{
+    margin-top: 120px;
+    background-color:rgba(0,0,0,0.2);
+    opacity: 0.9;
+    
+}
